@@ -1,0 +1,40 @@
+﻿#result {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.business-info-container {
+    border: 1px solid black;
+    margin-bottom: 1%;
+    padding: 3%;
+    background-color: rgba(0, 180, 33, 0.9);
+    border-radius: 50% 50% 0% 0%;
+    color: white;
+    flex: 46%;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 3px 3px 3px black;
+    overflow: hidden;
+}
+
+.business-address {
+    position: relative;
+    transform: translateY(150px);
+    transition: transform 500ms;
+}
+
+.business-info-container:hover .business-address {
+    transform: translateY(0px);
+}
+
+body {
+    background-image: url("http://tacoguild.com/wp-content/uploads/THREE-TACOS-WITH-KEY_web.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-content {
+    /*background-color: rgba(255, 106, 0, 0.4);*/
+}
